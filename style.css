@@ -73,13 +73,14 @@ ion-icon {
     display: block !important;
 }
 .drop-back {
-    background-color: #263d24;
+    background-color: rgba(224, 195, 189, 0.5);
 }
-.drop-item {
-    opacity: 0.5;
+.nav li a{
+    color: #4e7d4a;
+    font-size: large;
 }
 .product-nav {
-    border: 1px solid #2b332a;
+    box-shadow: 5px 5px 5px #d3e3d1;
     border-radius: 5px;
     margin: 30px auto 120px auto;
 }
@@ -94,18 +95,21 @@ ion-icon {
     font-size: 36px;
     font-weight: 600; 
     color: #332415;  
+}.col-md-4 {
+    padding-left: 70px;
+    padding-right: 70px;
 }
 .product-desc{
-    margin-top: 80px;
+    margin-top: 180px;
 }
 .product-desc h6{
   font-family: montserrat;
   font-size: 24px;
   color: #4e7d4a;
+  padding-top: 10px;
 }
 .product-desc p{
     font-family: futura lt bt;
-    font-size: 14px;
     color: black;
     line-height: 15px;
     text-align: center;
@@ -126,7 +130,7 @@ ion-icon {
     height: 200px;
     background-color: rgba(78, 125, 74, 0.7);
     left: 0;
-    bottom: 0;
+    bottom: 19%;
 }
 .catalogue-text-2 {
     position: absolute;
@@ -180,8 +184,12 @@ ion-icon {
     font-family: futura lt bt;
     color: #0b0b0b;
 }
-.text-container:hover .catalogue-image-overlay {
-    opacity: 1;
+.cat-desc {
+    padding-top: 50px;
+    font-size: medium;
+    text-align: left;
+    line-height: 20px;
+    color: #726c6a;
 }
 .buy-card {
     padding-left: 20px;
