@@ -66,6 +66,12 @@ ion-icon {
     text-transform: uppercase;
     font-weight: 500;
 }
+.dropdown:hover .dropdown-menu {
+    display: block !important;
+}
+.dropdown:focus .dropdown-menu {
+    display: block !important;
+}
 .drop-back {
     background-color: #263d24;
 }
